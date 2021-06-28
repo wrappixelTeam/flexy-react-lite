@@ -15,12 +15,6 @@ import CheckBoxIcon from "@material-ui/icons/CheckBox";
 import Favorite from "@material-ui/icons/Favorite";
 import FavoriteBorder from "@material-ui/icons/FavoriteBorder";
 
-import {
-  successColor,
-  dangerColor,
-  warningColor,
-} from "../../assets/global/Theme-variable";
-
 const ExCheckbox = () => {
   // 2
   const [checked, setChecked] = React.useState(true);
@@ -102,27 +96,27 @@ const ExCheckbox = () => {
               <Checkbox
                 defaultChecked
                 sx={{
-                  color: successColor,
+                  color: "success.main",
                   "&.Mui-checked": {
-                    color: successColor,
+                    color: "success.main",
                   },
                 }}
               />
               <Checkbox
                 defaultChecked
                 sx={{
-                  color: dangerColor,
+                  color: "error.main",
                   "&.Mui-checked": {
-                    color: dangerColor,
+                    color: "error.main",
                   },
                 }}
               />
               <Checkbox
                 defaultChecked
                 sx={{
-                  color: warningColor,
+                  color: "warning.main",
                   "&.Mui-checked": {
-                    color: warningColor,
+                    color: "warning.main",
                   },
                 }}
               />
@@ -274,9 +268,9 @@ const ExCheckbox = () => {
                   <Checkbox
                     checked
                     sx={{
-                      color: successColor,
+                      color: "success.main",
                       "&.Mui-checked": {
-                        color: successColor,
+                        color: "success.main",
                       },
                     }}
                   />
@@ -291,9 +285,9 @@ const ExCheckbox = () => {
                   <Checkbox
                     checked
                     sx={{
-                      color: dangerColor,
+                      color: "error.main",
                       "&.Mui-checked": {
-                        color: dangerColor,
+                        color: "error.main",
                       },
                     }}
                   />
@@ -308,9 +302,9 @@ const ExCheckbox = () => {
                   <Checkbox
                     checked
                     sx={{
-                      color: warningColor,
+                      color: "warning.main",
                       "&.Mui-checked": {
-                        color: warningColor,
+                        color: "warning.main",
                       },
                     }}
                   />

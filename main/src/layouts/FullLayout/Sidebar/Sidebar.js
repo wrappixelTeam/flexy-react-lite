@@ -12,7 +12,6 @@ import {
 } from "@material-ui/core";
 import { SidebarWidth } from "../../../assets/global/Theme-variable";
 import LogoIcon from "../Logo/LogoIcon";
-import LogoText from "../Logo/LogoText";
 import Menuitems from "./data";
 import Buynow from "./Buynow";
 
@@ -35,9 +34,6 @@ const Sidebar = (props) => {
       <Link to="/">
         <Box sx={{ display: "flex", alignItems: "Center" }}>
           <LogoIcon />
-          <Box sx={{ mx: 1, display: "flex", alignItems: "Center" }}>
-            <LogoText />
-          </Box>
         </Box>
       </Link>
 

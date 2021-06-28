@@ -9,14 +9,6 @@ import shadows from "./Shadows";
 
 const SidebarWidth = 265;
 const TopbarHeight = 70;
-const primaryColor = "#1e4db7";
-const warningColor = "#fec90f";
-const dangerColor = "#fc4b6c";
-const successColor = "#39cb7f";
-const infoColor = "#0bb2fb";
-const lightColor = "#f1f9ff";
-const darkColor = "#3c414c";
-const mutedColor = "#99abb4";
 
 const baseTheme = createTheme({
   direction: "ltr",
@@ -32,7 +24,8 @@ const baseTheme = createTheme({
       default: "#fff",
     },
     success: {
-      main: "#00ab55",
+      main: "#39cb7f",
+      contrastText: "#ffffff",
     },
     danger: {
       main: "#fc4b6c",
@@ -42,6 +35,7 @@ const baseTheme = createTheme({
     },
     warning: {
       main: "#fdd43f",
+      contrastText: "#ffffff",
     },
     text: {
       secondary: "#777e89",
@@ -148,16 +142,4 @@ const baseTheme = createTheme({
   shadows,
 });
 
-export {
-  primaryColor,
-  TopbarHeight,
-  SidebarWidth,
-  warningColor,
-  dangerColor,
-  successColor,
-  infoColor,
-  lightColor,
-  darkColor,
-  mutedColor,
-  baseTheme,
-};
+export { TopbarHeight, SidebarWidth, baseTheme };

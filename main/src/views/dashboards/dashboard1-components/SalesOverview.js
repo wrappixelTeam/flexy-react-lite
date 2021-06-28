@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, CardContent, Typography, Box } from "@material-ui/core";
-import { primaryColor, infoColor } from "../../../assets/global/Theme-variable";
 
 import Chart from "react-apexcharts";
 
@@ -126,9 +125,8 @@ const SalesOverview = () => {
         >
           <Box>
             <Typography
+              variant="h3"
               sx={{
-                fontWeight: "500",
-                fontSize: "h3.fontSize",
                 marginBottom: "0",
               }}
               gutterBottom
@@ -154,7 +152,7 @@ const SalesOverview = () => {
             >
               <Box
                 sx={{
-                  backgroundColor: primaryColor,
+                  backgroundColor: "secondary.main",
                   borderRadius: "50%",
                   height: 8,
                   width: 8,
@@ -162,10 +160,9 @@ const SalesOverview = () => {
                 }}
               />
               <Typography
+                variant="h6"
                 sx={{
-                  fontSize: "h6.fontSize",
-                  color: primaryColor,
-                  fontWeight: "medium",
+                  color: "secondary.main",
                 }}
               >
                 Ample
@@ -180,7 +177,7 @@ const SalesOverview = () => {
             >
               <Box
                 sx={{
-                  backgroundColor: infoColor,
+                  backgroundColor: "primary.main",
                   borderRadius: "50%",
                   height: 8,
                   width: 8,
@@ -188,10 +185,9 @@ const SalesOverview = () => {
                 }}
               />
               <Typography
+                variant="h6"
                 sx={{
-                  fontSize: "h6.fontSize",
-                  color: infoColor,
-                  fontWeight: "medium",
+                  color: "primary.main",
                 }}
               >
                 Pixel Admin

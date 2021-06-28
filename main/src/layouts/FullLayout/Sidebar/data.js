@@ -1,59 +1,59 @@
 import {
-  DashboardTwoTone,
-  AddToPhotosTwoTone,
-  AspectRatioTwoTone,
-  AssignmentTurnedInTwoTone,
-  AlbumTwoTone,
-  SwitchCameraTwoTone,
-  SwitchLeftTwoTone,
-  DescriptionTwoTone,
-  AutoAwesomeMosaicTwoTone,
+  DashboardOutlined,
+  AddToPhotosOutlined,
+  AspectRatioOutlined,
+  AssignmentTurnedInOutlined,
+  AlbumOutlined,
+  SwitchCameraOutlined,
+  SwitchLeftOutlined,
+  DescriptionOutlined,
+  AutoAwesomeMosaicOutlined,
 } from "@material-ui/icons/";
 
 const Menuitems = [
   {
     title: "Dashboard",
-    icon: DashboardTwoTone,
+    icon: DashboardOutlined,
     href: "/dashboards/dashboard1",
   },
   {
     title: "Autocomplete",
-    icon: AddToPhotosTwoTone,
+    icon: AddToPhotosOutlined,
     href: "/form-elements/autocomplete",
   },
   {
     title: "Buttons",
-    icon: AspectRatioTwoTone,
+    icon: AspectRatioOutlined,
     href: "/form-elements/button",
   },
   {
     title: "Checkbox",
-    icon: AssignmentTurnedInTwoTone,
+    icon: AssignmentTurnedInOutlined,
     href: "/form-elements/checkbox",
   },
   {
     title: "Radio",
-    icon: AlbumTwoTone,
+    icon: AlbumOutlined,
     href: "/form-elements/radio",
   },
   {
     title: "Slider",
-    icon: SwitchCameraTwoTone,
+    icon: SwitchCameraOutlined,
     href: "/form-elements/slider",
   },
   {
     title: "Switch",
-    icon: SwitchLeftTwoTone,
+    icon: SwitchLeftOutlined,
     href: "/form-elements/switch",
   },
   {
     title: "Form",
-    icon: DescriptionTwoTone,
+    icon: DescriptionOutlined,
     href: "/form-layouts/form-layouts",
   },
   {
     title: "Table",
-    icon: AutoAwesomeMosaicTwoTone,
+    icon: AutoAwesomeMosaicOutlined,
     href: "/tables/basic-table",
   },
 ];

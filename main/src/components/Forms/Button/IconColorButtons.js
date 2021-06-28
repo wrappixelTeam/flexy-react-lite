@@ -4,12 +4,6 @@ import { Box, IconButton } from "@material-ui/core";
 
 import NotificationsNoneOutlinedIcon from "@material-ui/icons/NotificationsNoneOutlined";
 
-import {
-  successColor,
-  dangerColor,
-  warningColor,
-} from "../../../assets/global/Theme-variable";
-
 import BaseCard from "../../BaseCard/BaseCard";
 
 const IconColorButtons = () => {
@@ -51,7 +45,7 @@ const IconColorButtons = () => {
           variant="contained"
           sx={{
             mr: 1,
-            color: dangerColor,
+            color: "error.main",
           }}
         >
           <NotificationsNoneOutlinedIcon />
@@ -60,7 +54,7 @@ const IconColorButtons = () => {
           variant="contained"
           sx={{
             mr: 1,
-            color: warningColor,
+            color: "warning.main",
           }}
         >
           <NotificationsNoneOutlinedIcon />
@@ -70,7 +64,7 @@ const IconColorButtons = () => {
           color="success"
           sx={{
             mr: 1,
-            color: successColor,
+            color: "success.main",
           }}
         >
           <NotificationsNoneOutlinedIcon />

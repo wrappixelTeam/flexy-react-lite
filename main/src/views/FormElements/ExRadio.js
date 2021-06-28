@@ -9,13 +9,6 @@ import {
 
 import BaseCard from "../../components/BaseCard/BaseCard";
 
-import {
-  successColor,
-  dangerColor,
-  warningColor,
-  infoColor,
-} from "../../assets/global/Theme-variable";
-
 const ExRadio = () => {
   // 2
   const [checked, setChecked] = React.useState(true);
@@ -109,9 +102,9 @@ const ExRadio = () => {
                 onChange={handleChange}
                 inputprops={{ "aria-label": "primary checkbox" }}
                 sx={{
-                  color: successColor,
+                  color: "success.main",
                   "&.Mui-checked": {
-                    color: successColor,
+                    color: "success.main",
                   },
                 }}
               />
@@ -121,9 +114,9 @@ const ExRadio = () => {
                 onChange={handleChange}
                 inputprops={{ "aria-label": "primary checkbox" }}
                 sx={{
-                  color: dangerColor,
+                  color: "error.main",
                   "&.Mui-checked": {
-                    color: dangerColor,
+                    color: "error.main",
                   },
                 }}
               />
@@ -133,9 +126,9 @@ const ExRadio = () => {
                 onChange={handleChange}
                 inputprops={{ "aria-label": "primary checkbox" }}
                 sx={{
-                  color: warningColor,
+                  color: "warning.main",
                   "&.Mui-checked": {
-                    color: warningColor,
+                    color: "warning.main",
                   },
                 }}
               />
@@ -145,9 +138,9 @@ const ExRadio = () => {
                 onChange={handleChange2}
                 inputprops={{ "aria-label": "primary checkbox" }}
                 sx={{
-                  color: infoColor,
+                  color: "primary.main",
                   "&.Mui-checked": {
-                    color: infoColor,
+                    color: "primary.main",
                   },
                 }}
               />
@@ -261,9 +254,9 @@ const ExRadio = () => {
                   <Radio
                     checked
                     sx={{
-                      color: successColor,
+                      color: "success.main",
                       "&.Mui-checked": {
-                        color: successColor,
+                        color: "success.main",
                       },
                     }}
                   />
@@ -278,9 +271,9 @@ const ExRadio = () => {
                   <Radio
                     checked
                     sx={{
-                      color: dangerColor,
+                      color: "error.main",
                       "&.Mui-checked": {
-                        color: dangerColor,
+                        color: "error.main",
                       },
                     }}
                   />
@@ -295,9 +288,9 @@ const ExRadio = () => {
                   <Radio
                     checked
                     sx={{
-                      color: warningColor,
+                      color: "warning.main",
                       "&.Mui-checked": {
-                        color: warningColor,
+                        color: "warning.main",
                       },
                     }}
                   />

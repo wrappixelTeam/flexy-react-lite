@@ -19,40 +19,32 @@ import TimelineContent from "@material-ui/lab/TimelineContent";
 import TimelineDot from "@material-ui/lab/TimelineDot";
 import TimelineOppositeContent from "@material-ui/lab/TimelineOppositeContent";
 
-import {
-  successColor,
-  primaryColor,
-  dangerColor,
-  warningColor,
-  infoColor,
-} from "../../../assets/global/Theme-variable";
-
 const options = ["Action", "Another Action", "Something else here"];
 
 const activities = [
   {
     time: "09.50",
-    color: successColor,
+    color: "success.main",
     text: "Meeting with John",
   },
   {
     time: "09.46",
-    color: primaryColor,
+    color: "secondary.main",
     text: "Payment received from John Doe of $385.90",
   },
   {
     time: "09.47",
-    color: infoColor,
+    color: "primary.main",
     text: "Project Meeting",
   },
   {
     time: "09.48",
-    color: warningColor,
+    color: "warning.main",
     text: "New Sale recorded #ML-3467",
   },
   {
     time: "09.49",
-    color: dangerColor,
+    color: "error.main",
     text: "Payment was made of $64.95 to Michael Anderson",
   },
 ];
@@ -148,26 +140,6 @@ const DailyActivities = () => {
             </Menu>
           </Box>
         </Box>
-        {/* <Timeline position="alternate">
-          {activities.map((activity) => (
-            <TimelineItem key={activity.time}>
-              <TimelineOppositeContent color="text.secondary">
-                {activity.time}
-              </TimelineOppositeContent>
-              <TimelineSeparator>
-                <TimelineDot
-                  variant="outlined"
-                  sx={{
-                    borderColor: activity.color,
-                  }}
-                />
-                <TimelineConnector />
-              </TimelineSeparator>
-
-              <TimelineContent>{activity.text}</TimelineContent>
-            </TimelineItem>
-          ))}
-        </Timeline> */}
         <Timeline
           sx={{
             p: 0,

@@ -24,7 +24,7 @@ const Buynow = () => {
             top: "-18px",
           }}
         />
-        <Box pb={1} pt={2} sx={{ width: "90%" }}>
+        <Box pb={1} pt={2} sx={{ width: "100%" }}>
           <Typography
             variant="h5"
             mb={2}
@@ -37,13 +37,13 @@ const Buynow = () => {
             Built with <br /> Material-UI
           </Typography>
           <Button
-            color="secondary"
+            color="success"
             href="https://www.wrappixel.com/templates/flexy-react-admin-template/"
             fullWidth
             disableElevation
             variant="contained"
           >
-            Buy Pro Version
+            Check Pro Version
           </Button>
         </Box>
       </Box>

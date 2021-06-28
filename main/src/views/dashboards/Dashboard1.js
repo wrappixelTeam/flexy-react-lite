@@ -6,8 +6,6 @@ import {
   SalesOverview,
   ProductPerformance,
   DailyActivities,
-  BlogCard2,
-  BlogCard3,
 } from "./dashboard1-components";
 
 const Dashboard1 = () => {
@@ -28,39 +26,7 @@ const Dashboard1 = () => {
           <ProductPerformance />
         </Grid>
         {/* ------------------------- row 3 ------------------------- */}
-        <Grid
-          item
-          xs={12}
-          lg={4}
-          sx={{
-            display: "flex",
-            alignItems: "stretch",
-          }}
-        >
-          <BlogCard />
-        </Grid>
-        <Grid
-          item
-          xs={12}
-          lg={4}
-          sx={{
-            display: "flex",
-            alignItems: "stretch",
-          }}
-        >
-          <BlogCard2 />
-        </Grid>
-        <Grid
-          item
-          xs={12}
-          lg={4}
-          sx={{
-            display: "flex",
-            alignItems: "stretch",
-          }}
-        >
-          <BlogCard3 />
-        </Grid>
+        <BlogCard />
       </Grid>
     </Box>
   );
