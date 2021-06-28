@@ -1,14 +1,13 @@
 import React from "react";
 import { useRoutes } from "react-router-dom";
-import { CssBaseline, ThemeProvider } from "@material-ui/core";
-import ThemeSettings from "./layouts/FullLayout/Customizer/settings";
+import { ThemeProvider } from "@material-ui/core";
+import {baseTheme} from './assets/global/Theme-variable'
 import Themeroutes from "./routes/Router";
 const App = () => {
   const routing = useRoutes(Themeroutes);
-  const theme = ThemeSettings();
+  const theme = baseTheme;
   return (
     <ThemeProvider theme={theme}>
-      <CssBaseline />
       {routing}
     </ThemeProvider>
   );

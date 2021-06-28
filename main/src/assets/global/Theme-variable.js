@@ -1,9 +1,6 @@
-import _ from "lodash";
-import { createTheme } from "@material-ui/core/styles";
+import { createMuiTheme } from "@material-ui/core/styles";
 import typography from "./Typography";
 import shadows from "./Shadows";
-
-import { LIGHT_THEME } from "../../redux/constants";
 
 // ##############################
 
@@ -20,13 +17,9 @@ const infoColor = "#0bb2fb";
 const lightColor = "#f1f9ff";
 const darkColor = "#3c414c";
 const mutedColor = "#99abb4";
-const lightinfoColor = "#e6f4ff";
-const lightwarningColor = "#fff4e5";
-const lightdangerColor = "#fdf3f5";
-const lightsuccessColor = "#ebfaf2";
-const lightprimaryColor = "#ddebff";
 
-const baseTheme = {
+
+const baseTheme = createMuiTheme({
   direction: "ltr",
   palette: {
     primary: {
@@ -135,28 +128,7 @@ const baseTheme = {
         },
       },
     },
-    MuiLinearProgress: {
-      styleOverrides: {
-        root: {
-          backgroundColor: "#ecf0f2",
-          borderRadius: "6px",
-        },
-      },
-    },
-    MuiMenuItem: {
-      styleOverrides: {
-        root: {
-          borderRadius: "0",
-        },
-      },
-    },
-    MuiChip: {
-      styleOverrides: {
-        root: {
-          fontWeight: "500",
-        },
-      },
-    },
+    
   },
   mixins: {
     toolbar: {
@@ -175,36 +147,9 @@ const baseTheme = {
   },
   typography,
   shadows,
-};
+});
 
-const themesOptions = [
-  // Light theme options
-  {
-    name: LIGHT_THEME,
-    palette: {
-      mode: "light",
-    },
-    background: {
-      default: "#282C34",
-      dark: "#1c2025",
-      paper: "#282C34",
-    },
-  },
-];
 
-export const BuildTheme = (config = {}) => {
-  let themeOptions = themesOptions.find((theme) => theme.name === config.theme);
-
-  if (!themeOptions) {
-    console.warn(new Error(`The theme ${config.theme} is not valid`));
-    [themeOptions] = themesOptions;
-  }
-
-  let theme = createTheme(
-    _.merge({}, baseTheme, themeOptions, { direction: config.direction })
-  );
-  return theme;
-};
 
 export {
   primaryColor,
@@ -217,9 +162,5 @@ export {
   lightColor,
   darkColor,
   mutedColor,
-  lightinfoColor,
-  lightwarningColor,
-  lightdangerColor,
-  lightsuccessColor,
-  lightprimaryColor,
+  baseTheme
 };
