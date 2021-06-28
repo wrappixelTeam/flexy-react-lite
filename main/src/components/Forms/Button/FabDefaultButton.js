@@ -2,7 +2,10 @@ import React from "react";
 
 import { Box, Typography, Fab } from "@material-ui/core";
 
-import FeatherIcon from "feather-icons-react";
+import SendOutlinedIcon from "@material-ui/icons/SendOutlined";
+import AddToPhotosOutlinedIcon from "@material-ui/icons/AddToPhotosOutlined";
+import AssignmentOutlinedIcon from "@material-ui/icons/AssignmentOutlined";
+import CheckCircleOutlineOutlinedIcon from "@material-ui/icons/CheckCircleOutlineOutlined";
 
 import BaseCard from "../../BaseCard/BaseCard";
 
@@ -27,7 +30,7 @@ const FabDefaultButton = () => {
               },
             }}
           >
-            <FeatherIcon icon="send" width="20" height="20"></FeatherIcon>
+            <SendOutlinedIcon />
           </Fab>
           <Fab
             color="secondary"
@@ -40,7 +43,7 @@ const FabDefaultButton = () => {
               },
             }}
           >
-            <FeatherIcon icon="plus" width="20" height="20"></FeatherIcon>
+            <AddToPhotosOutlinedIcon />
           </Fab>
           <Fab
             disabled
@@ -53,7 +56,7 @@ const FabDefaultButton = () => {
               },
             }}
           >
-            <FeatherIcon icon="clipboard" width="20" height="20"></FeatherIcon>
+            <AssignmentOutlinedIcon />
           </Fab>
         </Box>
         <Box
@@ -78,11 +81,7 @@ const FabDefaultButton = () => {
               },
             }}
           >
-            <FeatherIcon
-              icon="check-circle"
-              width="20"
-              height="20"
-            ></FeatherIcon>
+            <CheckCircleOutlineOutlinedIcon />
             <Typography
               sx={{
                 ml: 1,
@@ -104,11 +103,7 @@ const FabDefaultButton = () => {
               },
             }}
           >
-            <FeatherIcon
-              icon="check-circle"
-              width="20"
-              height="20"
-            ></FeatherIcon>
+            <CheckCircleOutlineOutlinedIcon />
             <Typography
               sx={{
                 ml: 1,
@@ -130,11 +125,7 @@ const FabDefaultButton = () => {
               },
             }}
           >
-            <FeatherIcon
-              icon="check-circle"
-              width="20"
-              height="20"
-            ></FeatherIcon>
+            <CheckCircleOutlineOutlinedIcon />
             <Typography
               sx={{
                 ml: 1,

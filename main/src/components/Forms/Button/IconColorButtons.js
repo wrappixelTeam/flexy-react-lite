@@ -2,7 +2,8 @@ import React from "react";
 
 import { Box, IconButton } from "@material-ui/core";
 
-import FeatherIcon from "feather-icons-react";
+import NotificationsNoneOutlinedIcon from "@material-ui/icons/NotificationsNoneOutlined";
+
 import {
   successColor,
   dangerColor,
@@ -35,7 +36,7 @@ const IconColorButtons = () => {
             mr: 1,
           }}
         >
-          <FeatherIcon icon="bell" width="18" height="18"></FeatherIcon>
+          <NotificationsNoneOutlinedIcon />
         </IconButton>
         <IconButton
           variant="contained"
@@ -44,7 +45,7 @@ const IconColorButtons = () => {
             mr: 1,
           }}
         >
-          <FeatherIcon icon="bell" width="18" height="18"></FeatherIcon>
+          <NotificationsNoneOutlinedIcon />
         </IconButton>
         <IconButton
           variant="contained"
@@ -53,7 +54,7 @@ const IconColorButtons = () => {
             color: dangerColor,
           }}
         >
-          <FeatherIcon icon="bell" width="18" height="18"></FeatherIcon>
+          <NotificationsNoneOutlinedIcon />
         </IconButton>
         <IconButton
           variant="contained"
@@ -62,7 +63,7 @@ const IconColorButtons = () => {
             color: warningColor,
           }}
         >
-          <FeatherIcon icon="bell" width="18" height="18"></FeatherIcon>
+          <NotificationsNoneOutlinedIcon />
         </IconButton>
         <IconButton
           variant="contained"
@@ -72,7 +73,7 @@ const IconColorButtons = () => {
             color: successColor,
           }}
         >
-          <FeatherIcon icon="bell" width="18" height="18"></FeatherIcon>
+          <NotificationsNoneOutlinedIcon />
         </IconButton>
       </Box>
     </BaseCard>

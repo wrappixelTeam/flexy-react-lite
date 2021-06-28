@@ -9,7 +9,7 @@ import {
   IconButton,
 } from "@material-ui/core";
 
-import FeatherIcon from "feather-icons-react";
+import MoreVertOutlinedIcon from "@material-ui/icons/MoreVertOutlined";
 
 import Timeline from "@material-ui/lab/Timeline";
 import TimelineItem from "@material-ui/lab/TimelineItem";
@@ -117,7 +117,7 @@ const DailyActivities = () => {
               aria-haspopup="true"
               onClick={handleClick}
             >
-              <FeatherIcon icon="more-horizontal"></FeatherIcon>
+              <MoreVertOutlinedIcon />
             </IconButton>
             <Menu
               id="long-menu"

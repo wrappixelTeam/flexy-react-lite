@@ -1,4 +1,4 @@
-import { createMuiTheme } from "@material-ui/core/styles";
+import { createTheme } from "@material-ui/core/styles";
 import typography from "./Typography";
 import shadows from "./Shadows";
 
@@ -18,12 +18,12 @@ const lightColor = "#f1f9ff";
 const darkColor = "#3c414c";
 const mutedColor = "#99abb4";
 
-
-const baseTheme = createMuiTheme({
+const baseTheme = createTheme({
   direction: "ltr",
   palette: {
     primary: {
       main: "#1a97f5",
+      light: "#e6f4ff",
     },
     secondary: {
       main: "#1e4db7",
@@ -128,7 +128,6 @@ const baseTheme = createMuiTheme({
         },
       },
     },
-    
   },
   mixins: {
     toolbar: {
@@ -149,8 +148,6 @@ const baseTheme = createMuiTheme({
   shadows,
 });
 
-
-
 export {
   primaryColor,
   TopbarHeight,
@@ -162,5 +159,5 @@ export {
   lightColor,
   darkColor,
   mutedColor,
-  baseTheme
+  baseTheme,
 };

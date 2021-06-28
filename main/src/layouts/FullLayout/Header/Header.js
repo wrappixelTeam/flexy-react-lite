@@ -57,7 +57,7 @@ const Header = (props) => {
         <Button
           variant="contained"
           color="secondary"
-          href="https://wrappixel.com/"
+          href="https://www.wrappixel.com/templates/flexy-react-admin-template/"
         >
           Check Pro Version
         </Button>
