@@ -12,7 +12,7 @@ const BlogCard3 = () => {
         width: "100%",
       }}
     >
-      <img src={user3} alt="img" width="100%" height="200" />
+      <img src={user3} alt="img" width="100%" />
       <CardContent
         sx={{
           paddingLeft: "30px",
