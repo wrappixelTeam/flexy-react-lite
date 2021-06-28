@@ -34,6 +34,7 @@ const BlogCard = () => {
     <Grid container>
       {blogs.map((blog, index) => (
         <Grid
+          key={index}
           item
           xs={12}
           lg={4}
