@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Box, Button, ButtonGroup } from "@material-ui/core";
+import { Box, Button, ButtonGroup } from "@mui/material";
 
 import BaseCard from "../../BaseCard/BaseCard";
 

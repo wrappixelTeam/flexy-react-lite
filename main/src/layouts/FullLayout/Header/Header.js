@@ -1,12 +1,12 @@
 import React from "react";
 //import { Link } from 'react-router-dom';
-import MenuOutlinedIcon from "@material-ui/icons/MenuOutlined";
-import NotificationsNoneOutlinedIcon from "@material-ui/icons/NotificationsNoneOutlined";
-import AddToPhotosOutlinedIcon from "@material-ui/icons/AddToPhotosOutlined";
 
-import PersonAdd from "@material-ui/icons/PersonAdd";
-import Settings from "@material-ui/icons/Settings";
-import Logout from "@material-ui/icons/Logout";
+import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
+import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
+import AddToPhotosOutlinedIcon from '@mui/icons-material/AddToPhotosOutlined';
+import PersonAddOutlinedIcon from '@mui/icons-material/PersonAddOutlined';
+import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
+import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 
 import {
   AppBar,
@@ -19,7 +19,7 @@ import {
   Avatar,
   Divider,
   ListItemIcon,
-} from "@material-ui/core";
+} from "@mui/material";
 
 import userimg from "../../../assets/images/users/user.jpg";
 
@@ -249,19 +249,19 @@ const Header = (props) => {
           <Divider />
           <MenuItem onClick={handleClose4}>
             <ListItemIcon>
-              <PersonAdd fontSize="small" />
+              <PersonAddOutlinedIcon fontSize="small" />
             </ListItemIcon>
             Add another account
           </MenuItem>
           <MenuItem onClick={handleClose4}>
             <ListItemIcon>
-              <Settings fontSize="small" />
+              <SettingsOutlinedIcon fontSize="small" />
             </ListItemIcon>
             Settings
           </MenuItem>
           <MenuItem onClick={handleClose4}>
             <ListItemIcon>
-              <Logout fontSize="small" />
+              <LogoutOutlinedIcon fontSize="small" />
             </ListItemIcon>
             Logout
           </MenuItem>

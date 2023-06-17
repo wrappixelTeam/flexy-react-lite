@@ -1,11 +1,9 @@
 import React from "react";
-
-import { Box, Typography, Fab } from "@material-ui/core";
-
-import SendOutlinedIcon from "@material-ui/icons/SendOutlined";
-import AddToPhotosOutlinedIcon from "@material-ui/icons/AddToPhotosOutlined";
-import AssignmentOutlinedIcon from "@material-ui/icons/AssignmentOutlined";
-import CheckCircleOutlineOutlinedIcon from "@material-ui/icons/CheckCircleOutlineOutlined";
+import { Box, Typography, Fab } from "@mui/material";
+import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
+import AddToPhotosOutlinedIcon from '@mui/icons-material/AddToPhotosOutlined';
+import AssignmentOutlinedIcon from '@mui/icons-material/AssignmentOutlined';
+import CheckCircleOutlineOutlinedIcon from '@mui/icons-material/CheckCircleOutlineOutlined';
 
 import BaseCard from "../../BaseCard/BaseCard";
 

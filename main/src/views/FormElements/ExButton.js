@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Grid, Box } from "@material-ui/core";
+import { Grid, Box } from "@mui/material";
 
 import { ColorButtons } from "../../components/Forms/Button/ColorButtons";
 import { SizeButton } from "../../components/Forms/Button/SizeButton";

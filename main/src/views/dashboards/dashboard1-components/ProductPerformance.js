@@ -7,7 +7,7 @@ import {
   FormControl,
   MenuItem,
   Select,
-} from "@material-ui/core";
+} from "@mui/material";
 
 import ExTable from "./ExTable";
 

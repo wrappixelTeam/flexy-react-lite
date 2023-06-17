@@ -6,22 +6,22 @@ const FullLayout = lazy(() => import("../layouts/FullLayout/FullLayout.js"));
 /****End Layouts*****/
 
 /*****Pages******/
-const Dashboard1 = lazy(() => import("../views/dashboards/Dashboard1"));
+const Dashboard1 = lazy(() => import("../views/dashboards/Dashboard1.js"));
 
 /*****Tables******/
-const BasicTable = lazy(() => import("../views/tables/BasicTable"));
+const BasicTable = lazy(() => import("../views/tables/BasicTable.js"));
 
 // form elements
 const ExAutoComplete = lazy(() =>
-  import("../views/FormElements/ExAutoComplete")
+  import("../views/FormElements/ExAutoComplete.js")
 );
-const ExButton = lazy(() => import("../views/FormElements/ExButton"));
-const ExCheckbox = lazy(() => import("../views/FormElements/ExCheckbox"));
-const ExRadio = lazy(() => import("../views/FormElements/ExRadio"));
-const ExSlider = lazy(() => import("../views/FormElements/ExSlider"));
-const ExSwitch = lazy(() => import("../views/FormElements/ExSwitch"));
+const ExButton = lazy(() => import("../views/FormElements/ExButton.js"));
+const ExCheckbox = lazy(() => import("../views/FormElements/ExCheckbox.js"));
+const ExRadio = lazy(() => import("../views/FormElements/ExRadio.js"));
+const ExSlider = lazy(() => import("../views/FormElements/ExSlider.js"));
+const ExSwitch = lazy(() => import("../views/FormElements/ExSwitch.js"));
 // form layouts
-const FormLayouts = lazy(() => import("../views/FormLayouts/FormLayouts"));
+const FormLayouts = lazy(() => import("../views/FormLayouts/FormLayouts.js"));
 
 /*****Routes******/
 

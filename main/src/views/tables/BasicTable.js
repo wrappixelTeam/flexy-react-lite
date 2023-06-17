@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Card, CardContent, Box, Typography } from "@material-ui/core";
+import { Card, CardContent, Box, Typography } from "@mui/material";
 
 import ExTable from "../dashboards/dashboard1-components/ExTable";
 

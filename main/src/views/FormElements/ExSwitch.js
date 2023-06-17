@@ -5,7 +5,7 @@ import {
   Switch,
   FormGroup,
   FormControlLabel,
-} from "@material-ui/core";
+} from "@mui/material";
 
 import BaseCard from "../../components/BaseCard/BaseCard";
 

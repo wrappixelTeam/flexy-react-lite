@@ -1,8 +1,8 @@
 import React from "react";
 
-import { TextField } from "@material-ui/core";
+import { TextField } from "@mui/material";
 
-import Autocomplete from "@material-ui/core/Autocomplete";
+import Autocomplete from '@mui/material/Autocomplete';
 
 import BaseCard from "../../BaseCard/BaseCard";
 

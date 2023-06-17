@@ -1,10 +1,7 @@
 import React from "react";
-
-import { Box, IconButton } from "@material-ui/core";
-
-import NotificationsNoneOutlinedIcon from "@material-ui/icons/NotificationsNoneOutlined";
-
+import { Box, IconButton } from "@mui/material";
 import BaseCard from "../../BaseCard/BaseCard";
+import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
 
 const IconColorButtons = () => {
   return (

@@ -1,7 +1,8 @@
 import React from "react";
-import { Card, CardContent, Typography, Box } from "@material-ui/core";
+import { Card, CardContent, Typography, Box } from "@mui/material";
+import Chart from 'react-apexcharts';
 
-import Chart from "react-apexcharts";
+
 
 const SalesOverview = () => {
   const optionssalesoverview = {
@@ -102,6 +103,11 @@ const SalesOverview = () => {
       data: [280, 250, 325, 215, 250, 310, 280, 250, 325, 215, 250, 310],
     },
   ];
+
+
+
+
+
   return (
     <Card
       variant="outlined"

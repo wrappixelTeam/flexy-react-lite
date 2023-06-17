@@ -1,59 +1,57 @@
-import {
-  DashboardOutlined,
-  AddToPhotosOutlined,
-  AspectRatioOutlined,
-  AssignmentTurnedInOutlined,
-  AlbumOutlined,
-  SwitchCameraOutlined,
-  SwitchLeftOutlined,
-  DescriptionOutlined,
-  AutoAwesomeMosaicOutlined,
-} from "@material-ui/icons/";
+import DashboardOutlinedIcon from '@mui/icons-material/DashboardOutlined';
+import AddToPhotosOutlinedIcon from '@mui/icons-material/AddToPhotosOutlined';
+import AspectRatioOutlinedIcon from '@mui/icons-material/AspectRatioOutlined';
+import AssignmentTurnedInOutlinedIcon from '@mui/icons-material/AssignmentTurnedInOutlined';
+import AlbumOutlinedIcon from '@mui/icons-material/AlbumOutlined';
+import SwitchCameraOutlinedIcon from '@mui/icons-material/SwitchCameraOutlined';
+import SwitchLeftOutlinedIcon from '@mui/icons-material/SwitchLeftOutlined';
+import DescriptionOutlinedIcon from '@mui/icons-material/DescriptionOutlined';
+import AutoAwesomeMosaicOutlinedIcon from '@mui/icons-material/AutoAwesomeMosaicOutlined';
 
 const Menuitems = [
   {
     title: "Dashboard",
-    icon: DashboardOutlined,
+    icon: DashboardOutlinedIcon,
     href: "/dashboards/dashboard1",
   },
   {
     title: "Autocomplete",
-    icon: AddToPhotosOutlined,
+    icon: AddToPhotosOutlinedIcon,
     href: "/form-elements/autocomplete",
   },
   {
     title: "Buttons",
-    icon: AspectRatioOutlined,
+    icon: AspectRatioOutlinedIcon,
     href: "/form-elements/button",
   },
   {
     title: "Checkbox",
-    icon: AssignmentTurnedInOutlined,
+    icon: AssignmentTurnedInOutlinedIcon,
     href: "/form-elements/checkbox",
   },
   {
     title: "Radio",
-    icon: AlbumOutlined,
+    icon: AlbumOutlinedIcon,
     href: "/form-elements/radio",
   },
   {
     title: "Slider",
-    icon: SwitchCameraOutlined,
+    icon: SwitchCameraOutlinedIcon,
     href: "/form-elements/slider",
   },
   {
     title: "Switch",
-    icon: SwitchLeftOutlined,
+    icon: SwitchLeftOutlinedIcon,
     href: "/form-elements/switch",
   },
   {
     title: "Form",
-    icon: DescriptionOutlined,
+    icon: DescriptionOutlinedIcon,
     href: "/form-layouts/form-layouts",
   },
   {
     title: "Table",
-    icon: AutoAwesomeMosaicOutlined,
+    icon: AutoAwesomeMosaicOutlinedIcon,
     href: "/tables/basic-table",
   },
 ];

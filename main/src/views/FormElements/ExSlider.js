@@ -1,11 +1,8 @@
 import React from "react";
-
-import { Grid, Box, Slider } from "@material-ui/core";
-
+import { Grid, Box, Slider } from "@mui/material";
 import BaseCard from "../../components/BaseCard/BaseCard";
-
-import VolumeDown from "@material-ui/icons/VolumeDown";
-import VolumeUp from "@material-ui/icons/VolumeUp";
+import VolumeUpOutlinedIcon from '@mui/icons-material/VolumeUpOutlined';
+import VolumeDownOutlinedIcon from '@mui/icons-material/VolumeDownOutlined';
 
 const valuetext = (value) => {
   return `${value}°C`;
@@ -82,13 +79,13 @@ const ExSlider = () => {
                 alignItems: "center",
               }}
             >
-              <VolumeDown />
+              <VolumeDownOutlinedIcon />
               <Slider
                 aria-label="Volume"
                 value={value}
                 onChange={handleChange}
               />
-              <VolumeUp />
+              <VolumeUpOutlinedIcon />
             </Box>
           </BaseCard>
         </Grid>

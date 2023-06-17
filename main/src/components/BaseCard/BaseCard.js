@@ -7,7 +7,7 @@ import {
   Box,
   Typography,
   Chip,
-} from "@material-ui/core";
+} from "@mui/material";
 
 const BaseCard = (props) => {
   return (

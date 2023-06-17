@@ -4,7 +4,7 @@ import {
   useMediaQuery,
   Container,
   Box,
-} from "@material-ui/core";
+} from "@mui/material";
 import { Outlet } from "react-router-dom";
 import Header from "./Header/Header";
 import Sidebar from "./Sidebar/Sidebar";

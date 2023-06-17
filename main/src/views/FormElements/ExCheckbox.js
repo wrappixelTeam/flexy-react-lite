@@ -6,14 +6,14 @@ import {
   FormGroup,
   FormControlLabel,
   FormControl,
-} from "@material-ui/core";
+} from "@mui/material";
 
 import BaseCard from "../../components/BaseCard/BaseCard";
 
-import CheckBoxOutlineBlankIcon from "@material-ui/icons/CheckBoxOutlineBlank";
-import CheckBoxIcon from "@material-ui/icons/CheckBox";
-import Favorite from "@material-ui/icons/Favorite";
-import FavoriteBorder from "@material-ui/icons/FavoriteBorder";
+import CheckBoxOutlineBlankOutlinedIcon from '@mui/icons-material/CheckBoxOutlineBlankOutlined';
+import CheckBoxOutlinedIcon from '@mui/icons-material/CheckBoxOutlined';
+import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
+import FavoriteOutlinedIcon from '@mui/icons-material/FavoriteOutlined';
 
 const ExCheckbox = () => {
   // 2
@@ -146,8 +146,8 @@ const ExCheckbox = () => {
                 <FormControlLabel
                   control={
                     <Checkbox
-                      icon={<CheckBoxOutlineBlankIcon />}
-                      checkedIcon={<CheckBoxIcon />}
+                      icon={<CheckBoxOutlineBlankOutlinedIcon />}
+                      checkedIcon={<CheckBoxOutlinedIcon />}
                       name="checkednormal"
                     />
                   }
@@ -156,8 +156,8 @@ const ExCheckbox = () => {
                 <FormControlLabel
                   control={
                     <Checkbox
-                      icon={<CheckBoxOutlineBlankIcon fontSize="small" />}
-                      checkedIcon={<CheckBoxIcon fontSize="small" />}
+                      icon={<CheckBoxOutlineBlankOutlinedIcon fontSize="small" />}
+                      checkedIcon={<CheckBoxOutlinedIcon fontSize="small" />}
                       name="checkedsmall"
                     />
                   }
@@ -166,8 +166,8 @@ const ExCheckbox = () => {
                 <FormControlLabel
                   control={
                     <Checkbox
-                      icon={<FavoriteBorder />}
-                      checkedIcon={<Favorite />}
+                      icon={<FavoriteOutlinedIcon />}
+                      checkedIcon={<FavoriteBorderOutlinedIcon />}
                       name="checkedH"
                     />
                   }

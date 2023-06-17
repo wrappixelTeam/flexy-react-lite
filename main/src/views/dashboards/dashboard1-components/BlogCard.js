@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardContent, Typography, Button, Grid } from "@material-ui/core";
+import { Card, CardContent, Typography, Button, Grid } from "@mui/material";
 
 import user1 from "../../../assets/images/backgrounds/u2.jpg";
 import user2 from "../../../assets/images/backgrounds/u3.jpg";

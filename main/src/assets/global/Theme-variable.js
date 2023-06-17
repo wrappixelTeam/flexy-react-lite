@@ -1,4 +1,5 @@
-import { createTheme } from "@material-ui/core/styles";
+// import { createTheme } from "@material-ui/core/styles";
+import { createTheme } from "@mui/material/styles";
 import typography from "./Typography";
 import shadows from "./Shadows";
 

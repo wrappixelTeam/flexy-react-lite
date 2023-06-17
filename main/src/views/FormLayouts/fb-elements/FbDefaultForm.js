@@ -15,7 +15,7 @@ import {
   Radio,
   FormControl,
   MenuItem,
-} from "@material-ui/core";
+} from "@mui/material";
 
 const numbers = [
   {

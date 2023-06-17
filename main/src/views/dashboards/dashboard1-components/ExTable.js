@@ -8,7 +8,7 @@ import {
   TableHead,
   TableRow,
   Chip,
-} from "@material-ui/core";
+} from "@mui/material";
 
 const products = [
   {
