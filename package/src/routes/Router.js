@@ -5,6 +5,7 @@ import { Navigate } from "react-router-dom";
 const FullLayout = lazy(() => import("../layouts/FullLayout/FullLayout.js"));
 /****End Layouts*****/
 
+
 /*****Pages******/
 const Dashboard1 = lazy(() => import("../views/dashboards/Dashboard1.js"));
 
@@ -20,6 +21,7 @@ const ExCheckbox = lazy(() => import("../views/FormElements/ExCheckbox.js"));
 const ExRadio = lazy(() => import("../views/FormElements/ExRadio.js"));
 const ExSlider = lazy(() => import("../views/FormElements/ExSlider.js"));
 const ExSwitch = lazy(() => import("../views/FormElements/ExSwitch.js"));
+
 // form layouts
 const FormLayouts = lazy(() => import("../views/FormLayouts/FormLayouts.js"));
 
@@ -28,7 +30,7 @@ const FormLayouts = lazy(() => import("../views/FormLayouts/FormLayouts.js"));
 const ThemeRoutes = [
   {
     path: "/",
-    element: <FullLayout />,
+    element:<FullLayout/>,
     children: [
       { path: "/", element: <Navigate to="dashboards/dashboard1" /> },
       { path: "dashboards/dashboard1", exact: true, element: <Dashboard1 /> },
